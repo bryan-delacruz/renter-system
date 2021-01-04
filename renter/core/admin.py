@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Owner, Renter, Floor, Building, Room
 
-# Register your models here.
+admin.site.register([Owner, Renter, Floor, Building, Room])
